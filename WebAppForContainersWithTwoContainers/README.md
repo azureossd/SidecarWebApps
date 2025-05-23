@@ -1,7 +1,7 @@
 # Azure Web App Sidecars
 
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgabesmsft%2FAzureWebAppSidecars%2Fmaster%2Fdeploy%2Fazuredeploy.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fazureossd%2FSidecarWebApps%2Fmaster%2FWebAppForContainersWithTwoContainers%2Fdeploy%2Fazuredeploy.json)
 
 This sample Azure Resource Manager template deploys an Azure Web App for Containers with [sidecar containers](https://learn.microsoft.com/azure/app-service/tutorial-custom-container-sidecar).
 
