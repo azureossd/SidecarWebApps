@@ -11,8 +11,8 @@ The following sidecars are deployed:
 
 | Sidecar name | IsMain | Environment variables | Volume sub path 1 | Container mount path 1 |
 | ------------ | ------ | --------------------- | ----------------- | ---------------------- |
-| frontend | true   | <inherits from Web App> | /directory1/directory2/directory3 | /frontendvolume |
-| backend | false   | backendfood: <references the food environment variable> | /directory1/directory2 | /backendvolume |
+| frontend | true   | {inherits from Web App} | /directory1/directory2/directory3 | /frontendvolume |
+| backend | false   | backendfood: {references the food environment variable} | /directory1/directory2 | /backendvolume |
 
 The backend container has following GET routes:
 
