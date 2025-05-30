@@ -35,7 +35,7 @@ To test the application, append the frontend route that you want to test to the 
 
 For example:
 
-https://<WebAppDomainPrefix>.azurewebsites.net/getbackendresponse should return the following response:
+https://*ReplaceWithYourWebAppDomainPrefix*.azurewebsites.net/getbackendresponse should return the following response:
 "This is the response from the backendpoint method: home fries"
 
 If you delete the environment variable from the backend sidecar, /getbackendresponse should contain "potato" instead of "home fries" in the response.
